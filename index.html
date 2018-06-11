@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>UploadingFiles-AJAX-ASP.Net</title>
+    <!-- Style file -->
+    <link href="styles.css" rel="stylesheet" />
+    <!-- Script file -->
+    <script src="app.js"></script>
+</head>
+<body>
+    <!-- This file input get file and send it on change event-->
+    <label class="fileContainer">
+        Select a file...
+        <input id="file" name="file" type="file" />
+    </label>
+    <br />
+    <br />
+    <!-- This div shows each file is going uploaded
+        and later allows download it
+        -->
+    <div id="files" class="table">
+        <!-- This message is only shown if there's not any file uploaded -->
+        <div id="message">There's not files yet :(</div>
+    </div>
+</body>
+</html>
